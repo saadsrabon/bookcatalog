@@ -25,7 +25,7 @@ const Login = () => {
                 </div>
 
                 <form>
-                  <p className="mb-4">Please login to your account</p>
+                  <p className="mb-4 text-center font-bold text-xl uppercase">Please login to your account</p>
                 
                   <div className="relative mb-4" data-te-input-wrapper-init>
                     <input
