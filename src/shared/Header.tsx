@@ -1,18 +1,26 @@
+import React, { ChangeEvent, FormEvent } from "react"
+import { useAppDispatch } from "../redux/store/hook"
+import { setSearchText } from "../redux/feature/search"
 
 
 const Header = () => {
+	const dispatch =useAppDispatch()
+	const handleSearch = (e:ChangeEvent<HTMLInputElement>) => {
+		dispatch(setSearchText(e.target.value))
+		e.preventDefault()
+	}
   return (
     <header className="p-4 bg-gray-100 text-gray-800">
 	<div className="container flex justify-between h-16 mx-auto">
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-violet-600 border-violet-600">Link</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-violet-600 border-violet-600">Home</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Link</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Books</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Link</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Add Books</a>
 			</li>
 		</ul>
 		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
@@ -30,7 +38,7 @@ const Header = () => {
 						</svg>
 					</button>
 				</span>
-				<input type="search" name="Search" placeholder="Search..." className="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none bg-gray-100 text-gray-800 focus:bg-gray-50" />
+				<input onChange={(e: ChangeEvent<HTMLInputElement>)=>handleSearch(e)} type="search" name="Search" placeholder="Search..." className="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none bg-gray-100 text-gray-800 focus:bg-gray-50" />
 			</div>
 			<button type="button" className="hidden px-6 py-2 font-semibold rounded lg:block bg-violet-600 text-gray-50">Log in</button>
 		</div>

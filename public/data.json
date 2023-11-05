@@ -1,0 +1,92 @@
+[
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "publicationDate": "1960-07-11",
+      "reviews": [],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/To_Kill_a_Mockingbird_%281963_US_theatrical_poster%29.jpg/1200px-To_Kill_a_Mockingbird_%281963_US_theatrical_poster%29.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Fiction",
+      "publicationDate": "1949-06-08",
+      "reviews": [],
+      "image": "https://static1.eboighar.com/thumbimages/Books/book_75042021-07-08_1625718517.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "publicationDate": "1925-04-10",
+      "reviews": [],
+      "image": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Classic",
+      "publicationDate": "1813-01-28",
+      "reviews": [],
+      "image": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "To the Lighthouse",
+      "author": "Virginia Woolf",
+      "genre": "Fiction",
+      "publicationDate": "1927-05-05",
+      "reviews": [],
+      "image": "https://cdn.kobo.com/book-images/44a61bb8-c82b-47b5-b669-975f49cf9e64/1200/1200/False/to-the-lighthouse-125.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "publicationDate": "1951-07-16",
+      "reviews": [],
+      "image": "https://www.pluggedin.com/wp-content/uploads/2020/01/catcher-in-the-rye-cover-image-682x1024.jpeg",
+      "addedBy": ""
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Classic",
+      "publicationDate": "1851-10-18",
+      "reviews": [],
+      "image": "https://dynamic.indigoimages.ca/v1/books/books/0143105957/1.jpg?quality=10&sale=0",
+      "addedBy": ""
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publicationDate": "1954-07-29",
+      "reviews": [],
+      "image": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF894,1000_QL80_.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Science Fiction",
+      "publicationDate": "1932-05-11",
+      "reviews": [],
+      "image": "https://dwcp78yw3i6ob.cloudfront.net/wp-content/uploads/2016/12/12111228/BraveNewWorld1946HiRes_Reduced.jpg",
+      "addedBy": ""
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Bronte",
+      "genre": "Classic",
+      "publicationDate": "1847-10-16",
+      "reviews": [],
+      "image": "https://www.goodillustration.com/blog/wp-content/uploads/2022/04/640px_cropped.jpg",
+      "addedBy": ""
+    }
+  ]
